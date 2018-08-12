@@ -1,5 +1,8 @@
 #hamburgerBtn {
   margin-right: 20px;
+  border: 1px solid #c6bcb0;
+  border-radius: 2px;
+  color: #c6bcb0;
   outline: none;
 }
 

@@ -8,7 +8,10 @@ $avatarLarge: 180px;
 
 #hamburgerBtn{
 	margin-right:20px;
-	outline: none;
+	border: 1px solid $brownLight;
+	border-radius: 2px;
+	color: $brownLight;
+outline: none;
 }
 
 #header{
