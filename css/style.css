@@ -90,7 +90,7 @@
   color: white;
 }
 
-#carousel {
+body {
   margin-top: 65px;
 }
 
@@ -165,4 +165,29 @@
 
 .footerNav a {
   color: white;
+}
+
+/*---------------------	ADOPT PAGE-----------------------------*/
+#adoptList {
+  padding: 30px;
+}
+
+#adoptList span {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  padding: 20px;
+  word-wrap: break-word;
+  text-align: center;
+  color: #817a72;
+}
+
+#adoptList img {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#adoptList h5 {
+  margin-top: 10px;
 }

@@ -4,6 +4,7 @@ $brownDark: #817a72;
 
 $borderCircle: 50%;
 $avatarLarge: 180px;
+$avatarDogList: 150px;
 
 
 #hamburgerBtn{
@@ -111,10 +112,11 @@ $avatarLarge: 180px;
 
 }
 
-
+body{
+	margin-top:65px;
+}
 
 #carousel{
-	margin-top:65px;
 	.carousel-caption{
 		color:black;
 		top:50%;
@@ -136,8 +138,8 @@ $avatarLarge: 180px;
 		background-color: rgba(255, 255, 255,.2);
 		bottom: 5px;
 	}
-
 }
+
 #content{
 	padding: 40px;
 
@@ -183,4 +185,43 @@ $avatarLarge: 180px;
 	a{
 		color:white;
 	}
+}
+
+
+
+
+/*---------------------	ADOPT PAGE-----------------------------*/
+
+#adoptList{
+	padding: 30px;
+	span{
+		//background-color: white;
+		border: 1px solid grey;
+
+		//-webkit-box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.23);
+		//-moz-box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.23);
+		//box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.23);
+
+		//margin: 5px;
+		margin-bottom: 20px;
+		padding:20px;
+		word-wrap:break-word;
+
+		text-align: center;
+		color: $brownDark;
+
+	}
+
+	img{
+		width:$avatarDogList;
+		height:$avatarDogList;
+
+		display: inline-block;
+		border-radius: $borderCircle;
+	}
+
+	h5{
+		margin-top:10px;
+	}
+
 }
