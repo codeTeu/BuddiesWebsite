@@ -5,9 +5,7 @@ $brownDark: #817a72;
 $borderCircle: 50%;
 $avatarLarge: 180px;
 
-.main-navigation {
-	box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
-}
+
 #hamburgerBtn{
 	margin-right:20px;
 	outline: none;
@@ -20,8 +18,8 @@ $avatarLarge: 180px;
 	margin: 0;
 	}
 }
-#navbarNavAltMarkup{
 
+#navbarNavAltMarkup{
 	.nav-item{
 		color: $brown;
 		display: inline-block;
@@ -29,7 +27,7 @@ $avatarLarge: 180px;
 		padding-left: 35px;
 		padding-right: 35px;
 		font-size: 18px;
-		border-top:1px solid $brownLight;
+		//border-top:1px solid $brownLight;
 	}
 
 	.nav-item:hover {
@@ -42,7 +40,6 @@ $avatarLarge: 180px;
 
 
 #carousel{
-
 	.carousel-caption{
 		color:black;
 		top:50%;
@@ -105,8 +102,10 @@ $avatarLarge: 180px;
 		transition: 200ms ease-in-out;
 	}
 
-.footerNav{
-color:white;
-
 }
+
+.footerNav{
+	a{
+		color:white;
+	}
 }

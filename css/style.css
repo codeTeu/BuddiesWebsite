@@ -1,8 +1,3 @@
-.main-navigation {
-  -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
-}
-
 #hamburgerBtn {
   margin-right: 20px;
   outline: none;
@@ -20,7 +15,6 @@
   padding-left: 35px;
   padding-right: 35px;
   font-size: 18px;
-  border-top: 1px solid #c6bcb0;
 }
 
 #navbarNavAltMarkup .nav-item:hover {
@@ -97,6 +91,6 @@
   transition: 200ms ease-in-out;
 }
 
-#footer .footerNav {
+.footerNav a {
   color: white;
 }
